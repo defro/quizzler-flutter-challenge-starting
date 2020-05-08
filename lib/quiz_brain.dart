@@ -4,30 +4,28 @@ class QuizBrain {
   int _questionNumber = 0;
 
   List<Question> _questionBank = [
-    Question('Some cats are actually allergic to humans', true),
-    Question('You can lead a cow down stairs but not up stairs.', false),
-    Question('Approximately one quarter of human bones are in the feet.', true),
-    Question('A slug\'s blood is green.', true),
-    Question('Buzz Aldrin\'s mother\'s maiden name was \"Moon\".', true),
-    Question('It is illegal to pee in the Ocean in Portugal.', true),
-    Question(
-        'No piece of square dry paper can be folded in half more than 7 times.',
+    Question('Une vache peut-elle descendre des marches mais pas les monter.',
         false),
     Question(
-        'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place.',
+        'À peu près un quart des os d\'un humain se trouve dans les pieds.',
         true),
+    Question('Le sang d\'une limace est vert.', true),
+    Question('Certains chats sont allergiques aux humains', true),
     Question(
-        'The loudest sound produced by any animal is 188 decibels. That animal is the African Elephant.',
+        'Le prénom de la mère de Buzz Aldrin (un astronaute) est \"Moon\" (Lune en français).',
+        true),
+    Question('Est ce illégal de pisser dans l\'océan au Portugal ?', true),
+    Question('Aucun carré de papier ne peut être plié en deux plus de 7 fois.',
         false),
     Question(
-        'The total surface area of two human lungs is approximately 70 square metres.',
-        true),
-    Question('Google was originally called \"Backrub\".', true),
+        'Le plus bruyant cri d\'un animal est de 188 décibels. Cet animal est l\'éléphant d\'Afrique.',
+        false),
+    Question('Le nom originel de Google est \"Backrub\".', true),
     Question(
-        'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog.',
+        'Le chocolat affecte le système nerveux et cardiaque d\'un chien; quelques grammes sont ils suffisants pour tuer un chien de petite taille.',
         true),
     Question(
-        'In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.',
+        'Dans l\'état de Viginie aux États-Unis, si vous heurtez accidentiellement un animal avec votre voiture, vous avez le droit de le ramener à la maison pour le manger.',
         true),
   ];
 
